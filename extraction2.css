@@ -1,0 +1,94 @@
+*{
+  color: #fff;
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #222;
+  color: #fff;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+.banner{
+  background: linear-gradient(0deg,#181818 0,hsla(0,0%,9%,.987) 1.62%,hsla(0,0%,9%,.951) 3.1%,hsla(0,0%,9%,.896) 4.5%,hsla(0,0%,9%,.825) 5.8%,hsla(0,0%,9%,.741) 7.06%,hsla(0,0%,9%,.648) 8.24%,hsla(0,0%,9%,.55) 9.42%,hsla(0,0%,9%,.45) 5.58%,hsla(0,0%,9%,.352) 11.76%,hsla(0,0%,9%,.259) 12.94%,hsla(0,0%,9%,.175) 14.2%,hsla(0,0%,9%,.104) 15.5%,hsla(0,0%,9%,.049) 16.9%,hsla(0,0%,9%,.013) 18.38%,hsla(0,0%,9%,0) 20%),url("https://occ-0-4857-2186.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABdYkHwZZYZ4cYPZ20OWPg4dml1YWoI5TnX0ALc_4rHEkyvokTlifJKLD2U_ypf2wNi9Jc6Jigr53o-0syqQFrB0TLUIk1A-k1U3z.jpg?r=720&quot");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 100vh;
+}
+.navbar{
+  max-width: 100%;
+  height: 50px;
+  background-color:black;
+  position: sticky;
+  top: 0;
+  padding:5px 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+}
+.links{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  gap:0.6rem;
+  background-color: black;
+}
+.links a{
+  text-decoration: none;
+}
+.links p{
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-size: 13px;
+  color: #fff;
+}
+.joinnow{
+  background-color:#E50914;
+  color: #ffffff;
+  padding: 7px 35px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+.signin{
+  color: #ffffff;
+  padding: 7px 21px;
+  border: 1px solid #888;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+}
+.banner_content{
+  background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0));
+  max-width:43%;
+  height: 100vh;
+  padding: 10% 5rem;
+}
+.banner_title img{
+  object-fit: contain;
+  max-width: 95%;
+  margin-bottom:3rem;
+}
+.banner_desc{
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.banner_desc h3{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.banner_desc span{
+  color: #A3A3A3;
+  font-size: 1rem;
+}
+.al{
+  border: 1px solid  #A3A3A3;
+  padding: 0.1px 6px;
+}

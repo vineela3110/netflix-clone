@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+body{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/85ff76db-39e5-423a-afbc-97d3e74db71b/null/IN-en-20240909-TRIFECTA-perspective_b22117e0-4610-4d57-a695-20f77d241a4a_large.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    max-width: 100%;
+    height:45rem;
+    background-color: #181818;
+}
+header{
+    max-width: 100%;
+    padding:24px 48px;
+    background-color: transparent;
+    
+}
+.logo{
+    background-color: transparent;
+    margin: 0px 126.6px;
+    filter: brightness(400%);
+}
+.container{
+    background-color:rgba(24,24,24,0.94);
+    width: 28rem;
+    height: 42rem;
+    margin: auto;
+    padding: 44px 62px;
+    border-radius: 10px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color:transparent;
+}
+input[type="text"],[type="password"],[type="button"]{
+    background-color: transparent;
+}
+input[type="text"]{
+    width: 100%;
+    padding:18px;
+    border: 1px solid rgb(139, 139, 139);
+    font-size: 1rem;
+}
+input[type="submit"]{
+    width: 100%;
+    padding:10px 25px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.container .head{
+    color: #ffffff;
+    font-size:32px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.input_group{
+    position: relative;
+}
+.input_group label{
+    position: absolute;
+    top: 50%;
+    left:18px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transform: all 0.3s ease;
+}
+.input_group input:is(:focus,:valid) ~ label{
+    transform: translateY(-130%);
+    font-size: 14px;
+}
+.pass{
+    position: relative;
+}
+.pass label{
+    position: absolute;
+    top: 50%;
+    left:18px;
+    pointer-events: none;
+    transform: translateY(-50%);
+    transform: all 0.3s ease-in;
+}
+.pass input:is(:focus,:valid) ~ label{
+    transform: translateY(-130%);
+    font-size: 12px;
+}
+.signin_btn input{
+    background-color:rgb(255, 0, 0);
+    font-size:1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signin_btn input:hover{
+    background-color: rgb(229,0,20);
+}
+span{
+    color: silver;
+}
+.code_btn input{
+    background-color:rgba(105, 103, 103, 0.49);
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+.forgot:hover{
+    text-decoration: underline;
+    color: lightgray;
+}
+input[type="checkbox"]{
+    zoom:1.5;
+    margin-right: 10px;
+}
+.signup{
+    font-weight: 600;
+}
+.signup:hover{
+    text-decoration: underline;
+}
+label{
+    color: rgb(184, 184, 184);
+}
+.desc{
+    color: rgb(184, 184, 184);
+}
+footer{
+    padding:12rem;
+    
+}
+footer p{
+    margin-bottom:3rem;
+    color: #737373;
+}
+footer a{
+    text-decoration: underline;
+    color: #737373;
+}
+.list{
+    display: flex;
+    justify-content:space-between;
+    max-width: 75%;
+}
+.col{
+    display: flex;
+    flex-direction:column;
+    gap: 1.5rem;
+}
